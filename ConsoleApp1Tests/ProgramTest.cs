@@ -17,7 +17,7 @@ namespace ConsoleApp1Tests
             var result = Program.HelloMessage();
 
             // Assert
-            result.ShouldBe("Hellos");
+            result.ShouldBe("Hello");
         }
     }
 }
